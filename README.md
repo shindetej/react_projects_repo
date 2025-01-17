@@ -18,7 +18,7 @@ Each concept is organized into its own folder for easy navigation and focused le
 
 1. Clone the repository:
    ```bash
-   git clone <URL>
+   git clone git@github.com:shindetej/react_projects_repo.git
    ```
 2. navigate to project ex. cd hello_app/
 ## To start node module installation
