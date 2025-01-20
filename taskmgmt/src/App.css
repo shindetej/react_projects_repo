@@ -75,6 +75,14 @@ button.trigger{
   cursor: pointer;
 }
 
+li.completed{
+  box-shadow: rgb(156, 219, 111) 0px 1px 4px;
+}
+
+li.incomplete{
+  box-shadow: rgba(239, 39, 3, 0.689) 0px 1px 4px;
+}
+
 .box{
   width: 400px;
   margin: 20px auto;
@@ -111,3 +119,4 @@ button.trigger{
 .hidden{
   display: none;
 }
+
