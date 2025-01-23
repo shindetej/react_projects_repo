@@ -8,7 +8,7 @@ export const TaskList = () => {
   ]);
 
   const [show, setShow] = useState(true);
-  const removeTask = (id) => {
+  const handleDelete = (id) => {
     setTasks(tasks.filter((task) => task.id !== id));
   };
 
@@ -26,7 +26,7 @@ export const TaskList = () => {
                 {id} - {name}
               </span>
               {
-                <button onClick={() => removeTask(id)} className="delete">
+                <button onClick={() => handleDelete(id)} className="delete">
                   Delete
                 </button>
               }

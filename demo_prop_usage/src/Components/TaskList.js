@@ -10,7 +10,7 @@ export const TaskList = () => {
   ]);
 
   const [show, setShow] = useState(true);
-  const removeTask = (id) => {
+  const handleDelete = (id) => {
     setTasks(tasks.filter((task) => task.id !== id));
   };
 
@@ -23,7 +23,7 @@ export const TaskList = () => {
         </button>
         {show &&
           tasks.map((task) => (
-           <TaskCard key={task.id} task={task} removeTask={removeTask}/>
+           <TaskCard key={task.id} task={task} handleDelete={handleDelete}/>
           ))}
       </ul>
 
