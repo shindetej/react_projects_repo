@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": "10001",
+      "name": "Parachute HairOil 200ml",
+      "price": 99,
+      "inStock": true
+    },
+    {
+      "id": "10002",
+      "name": "Parachute HairOil 500ml",
+      "price": 249,
+      "inStock": false
+    },
+    {
+      "id": "10003",
+      "name": "Himalaya Face Wash 100ml",
+      "price": 120,
+      "inStock": false
+    },
+    {
+      "id": "10004",
+      "name": "Himalaya Face Wash 200ml",
+      "price": 220,
+      "inStock": true
+    },
+    {
+      "id": "10005",
+      "name": "Dove Shampoo 180ml",
+      "price": 150,
+      "inStock": true
+    },
+
+    {
+      "id": "10008",
+      "name": "Apple iPhone 13",
+      "price": 73999,
+      "brand": "Special Edition",
+      "inStock": false
+    },
+    {
+      "id": "10009",
+      "name": "Sony WH-1000XM4 Headphones",
+      "price": 29000,
+      "inStock": true
+    },
+    {
+      "id": "10010",
+      "name": "Sony WH-1000XM4 Headphones",
+      "price": 28500,
+      "brand": "Refurbished",
+      "inStock": true
+    },
+    {
+      "id": "10011",
+      "name": "Logitech G502 Mouse",
+      "price": 4999,
+      "inStock": true
+    },
+    {
+      "id": "10012",
+      "name": "Arctic Fox Bluetooth Mouse",
+      "price": 600,
+      "brand": "Wireless Edition",
+      "inStock": true
+    }
+  ]
+}
