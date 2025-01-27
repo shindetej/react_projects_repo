@@ -5,13 +5,24 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
-  const [tasklist,setTasklist] = useState([]);
+  const [tasklist, setTasklist] = useState([]);
+  const [task, setTask] = useState({}); // for edit and delete functionality (047 code)
 
   return (
     <div className="App">
       <Header />
-      <AddTask tasklist={tasklist} setTasklist={setTasklist} />
-      <ShowTask tasklist={tasklist} setTasklist={setTasklist} />
+      <AddTask
+        tasklist={tasklist}
+        setTasklist={setTasklist}
+        task={task}
+        setTask={setTask}
+      />
+      <ShowTask
+        tasklist={tasklist}
+        setTasklist={setTasklist}
+        task={task}
+        setTask={setTask}
+      />
     </div>
   );
 }
